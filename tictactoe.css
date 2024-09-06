@@ -1,0 +1,73 @@
+*{
+    margin-top: 1px;
+}
+#mmm{
+    position: absolute;
+    top: -100px;
+    left:45%;
+}
+body{
+    max-height: 100vh;
+    background-color: rgba(160, 160, 160, 0.765);
+}
+div{
+    display: flex;
+    justify-content: center;
+    margin-top:130px;
+}
+table{
+    margin-top: 0px;
+    background-color: green;
+}
+th{
+    height: 100px;
+    width: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    color: red;
+    cursor: pointer;
+}   
+th:hover{
+    background-color: rgb(193, 191, 191);
+}
+#winx{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    color: green;
+    margin-top: 10px;
+    max-height:10px ;
+    margin-top: 0px;
+}
+#reset{
+    float: top;
+    background: rgb(255, 60, 0);
+    color: antiquewhite;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    transition:rotate 0.51s,background-color 1s;
+}
+#reset:hover{
+    cursor: pointer;
+    background-color: green;
+    rotate: 360deg;
+    border-radius: 30px;
+}
+#draw{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: rgb(54, 0, 249);
+    animation-name: bss;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes bss{
+    0%{font-size: 40px;}
+    50%{font-size: 45px;}
+}
+#maintictac{
+    margin-top: 0px;
+}
