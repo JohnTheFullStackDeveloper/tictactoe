@@ -1,3 +1,5 @@
+let phn;
+console.log(phn)
 let a=[0,(document.getElementById(1).innerHTML),
     (document.getElementById(2).innerHTML),
     (document.getElementById(3).innerHTML),
